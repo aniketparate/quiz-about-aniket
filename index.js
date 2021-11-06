@@ -3,7 +3,7 @@ var chalk = require('chalk');
 
 var name = readlineSync.question('What is your name? : ');
 
-console.log(chalk.blue("Welcome " + name + "!"));
+console.log(chalk.blue("Welcome " + name + "!\nMyself ANIKET🙃"));
 console.log("\nLets see how well you know me 😁");
 console.log("--------------------------------------");
 var score = 0;
