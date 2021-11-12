@@ -1,7 +1,7 @@
 var readlineSync = require('readline-sync');
 var chalk = require('chalk');
 
-var name = readlineSync.question('\n\nWhat is your name? : ');
+var name = readlineSync.question('\n\n\nWhat is your name? : ');
 
 console.log(chalk.blue("Welcome " + name + "!\nMyself ANIKET🙃"));
 console.log("\nLets see how well you know me 😁");
